@@ -24,7 +24,7 @@ const Student = () => {
     const [ groups, setGroups ] = useState("")
 
     const fetchData = async () => {
-        fetch("http://localhost:8080/student/groups")
+        fetch("http://localhost:5000/students")
         .then(response => {
             return response.json()
         })
@@ -54,8 +54,9 @@ const Student = () => {
                         <div className="student__body">
                             <span>{groups.name + ' ' + groups.surname}</span>
                             <div>
-                                <span>{groups.group_name}</span>
+                                <span>{groups.user_phone}</span>
                             </div>
+                                <span>{groups.course}</span>
                         </div>
                     )
                 })}

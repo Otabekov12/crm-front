@@ -1,10 +1,15 @@
 .homeworks__form {
-    width: 300px;
     display: flex;
-    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+
+    // flex-direction: column;
+
 
     input {
-        padding: 10px;
+        width: 190px;
+        padding: 12px;
         border-radius: 10px;
         margin: 10px;
     }
@@ -13,5 +18,6 @@
         padding: 10px;
         border-radius: 10px;
         margin: 8px;
+        margin-bottom: 17px;
     }
 }

@@ -9,13 +9,13 @@ const AddUser = () => {
 
    function handleClick(evt) {
 
-      let { name, surname,  password, phone_number, course, role} = evt.target.elements;
+      let { name, surname,  password, user_phone, course, role} = evt.target.elements;
 
 
       name = name.value.trim()
       surname = surname.value.trim()
       password = password.value.trim()
-      phone_number = phone_number.value.trim()
+      user_phone = user_phone.value.trim()
       course = course.value.trim()
       role = role.value.trim()
 
@@ -30,7 +30,7 @@ const AddUser = () => {
             name,
             surname,
             password,
-            phone_number,
+            user_phone,
             course,
             role
          })
@@ -44,13 +44,13 @@ const AddUser = () => {
          Add User
       </h4>
          <div className="add-post-container">
-            <form action="" onSubmit={handleClick}>
+            <form  action="" onSubmit={handleClick}>
                <input type="text" className="form-control" placeholder='name' name='name'/>
                <input type="text" className="form-control" placeholder='surname' name='surname'/>
                <input type="number" className="form-control" placeholder='password' name='password'/>
-               <input type="number" className="form-control" placeholder='phone_number' name='phone_number'/>
+               <input type="number" className="form-control" placeholder='phone_number' name='user_phone'/>
                <input type="text" className="form-control" placeholder='course' name='course'/>
-               <input type="text" className="form-control" placeholder='role' name='role' defaultValue={'student'}/>
+               <input type="text" className="form-control vf" placeholder='role' name='role' defaultValue={'student'}/>
                <Button variant="contained" type="submit">Add user</Button>
                
             </form>

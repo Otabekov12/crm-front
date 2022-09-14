@@ -18,16 +18,21 @@
 
     h1{
         font-size: 20px;
+        color: rgb(235, 207, 170);
+
     }
 }
 
 .student__body {
-    background-color: darkcyan;
+    background-color: rgb(201, 213, 162);
+    box-shadow: -13px -5px 0px -7px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 150px;
+    height: 180px;
     transition: opacity 0.25s;
 
     div{

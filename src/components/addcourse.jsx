@@ -37,7 +37,7 @@ const AddCourse = () => {
                 <form action="" onSubmit={handleClick}>
                     <input type="text" placeholder="Course Name" name="course_name" />
                     <input type="text" placeholder="description" name="description" />
-                    <input type="number" placeholder="price" name="price" />
+                    <input type="number" className="vf" placeholder="price" name="price" />
                    <Button variant="contained" type="submit">Add user</Button>
                 </form>
             </div>
