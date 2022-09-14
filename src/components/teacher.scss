@@ -1,0 +1,48 @@
+.teacher__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: blue;
+        font-size: 18px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid darkcyan;
+        width: 200px;
+        padding: 35px;
+        border-radius: 16px;
+        box-shadow: -29px 32px 18px -2px rgba(0,0,0,0.1);
+
+
+
+        li {
+            padding: 8px;
+            border-bottom: 1px solid aqua;
+            margin: 8px;
+        }
+    }
+}
+
+.link {
+
+    background-color: aqua;
+    width: 100px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: opacity 0.25s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        opacity: 0.3;
+    }
+}

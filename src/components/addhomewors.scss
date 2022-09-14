@@ -1,0 +1,17 @@
+.homeworks__form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    input {
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    select{
+        padding: 10px;
+        border-radius: 10px;
+        margin: 8px;
+    }
+}

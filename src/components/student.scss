@@ -1,0 +1,19 @@
+.students {
+    overflow-y: hidden;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+ul {
+    overflow-y: hidden;
+    margin: 8px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow-x: hidden;
+}
